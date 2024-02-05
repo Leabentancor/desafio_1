@@ -1,4 +1,4 @@
-* { margin: 0; padding: 0;box-sizing: border-box;}
+* { margin: 0 auto; padding: 0;box-sizing: border-box;}
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
@@ -8,10 +8,10 @@
 }
 .attribution a {
     color:hsl(220, 15%, 55%);}
-
+body {max-width:1440px}
 .contenedor{
-    width: 1440px;
-    height: 723px;
+    height: 720px;
+    max-width: 100%;
     background-color: hsl(212, 45%, 89%);
     display: flex;
     justify-content: center; 
